@@ -1,0 +1,21 @@
+{
+    "name": "smtpServer",
+    "version": "1.0.0",
+    "description": "fuck wx smtp server",
+    "main": "index.js",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "cheerio": "1.0.0-rc.2",
+        "mailparser": "2.2.3",
+        "smtp-server": "^3.4.2"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "Nathan",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemailer": "^4.6.4"
+    }
+}
